@@ -1,4 +1,4 @@
-local char = script.Parent
+local char = game:GetService("Players").LocalPlayer.Character
 local players = game:GetService("Players")
 
 local timeErase = Instance.new("BoolValue")
